@@ -1,0 +1,141 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.header {
+  height: 69px;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  position: fixed;
+  background-color: black;
+}
+
+.logo {
+  padding-left: 10px;
+  flex-grow: 10;
+}
+
+a {
+  color: seashell;
+}
+
+.nav {
+  padding-right: 10px;
+}
+
+.missionbox {
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  text-align: center;
+}
+.image1 {
+  background-image: url("../resources/images/background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+}
+.missioncontent {
+  background-color: black;
+  width: 1200px;
+}
+.secondsection {
+  display: flex;
+  justify-content: center;
+}
+
+.secondbox {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  height: 700px;
+  text-align: center;
+  flex-wrap: wrap;
+  width: 920px;
+}
+
+.secondtitle {
+  width: 100%;
+}
+
+.secondimage {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 920px;
+}
+
+.seconddescription {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 920px;
+}
+
+.thirdimage {
+  display: flex;
+  justify-content: space-between;;
+  flex-wrap: wrap;
+  width: 610px
+}
+
+.thirddescription {
+  display: flex;
+  justify-content: space-around;;
+  flex-wrap: wrap;
+  width: 610px;
+}
+
+.thirdbox {
+  padding-top: 40px;
+  display: flex;
+  height: 500px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.backgroundimage {
+  background-image: url("../resources/images/background2.jpg");
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.location {
+  width: 1200px;
+  align-self: flex-end;
+}
+
+.organiser {
+  width: 980px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.locationbox {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  height: 250px;
+
+}
+
+.footer {
+  text-align: center;
+}
+
+.copyright {
+  padding-left: 20px;
+}
